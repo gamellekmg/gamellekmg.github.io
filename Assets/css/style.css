@@ -5,7 +5,7 @@ body{
    line-height: 1.7;
 }
 .navbar-pink {
-  background-color: #d91587; 
+  background-color: #d91587; !important;
 }
 .nav-link.active {
   color: black
