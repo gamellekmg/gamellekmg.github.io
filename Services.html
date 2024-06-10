@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-...." crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- Navigation bar -->
+<nav class="navbar navbar-expand-lg navbar-pink shadow">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">
+      <img src="./Assets/images/logo-png.png" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" id="home-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" id="services-link" href="Services.html">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="appointment-link" href="Appointment.html">Book Your Appointment</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="specialists.html">Our Specialists</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" href="talk-to-us.html">Talk to Us</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="width: 300px;">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<div class="container mt-5">
+  <h2 class="text-center mb-4">Select Your Service and Options</h2>
+  <form>
+    <div class="mb-3">
+      <label for="hairstyle" class="form-label">Select Hairstyle</label>
+      <select class="form-select" id="hairstyle">
+        <option value="fulani-braids">Creative hairstyle</option>
+        <option value="fulani-braids">Softlocs</option>
+        <option value="fulani-braids">Knotless Braids</option>
+        <option value="fulani-braids">Knotless-Box-Braids</option>
+        <option value="fulani-braids">Invisibles Locs</option>
+        <option value="fulani-braids">twits</option>
+        <option value="fulani-braids">Fulani Braids</option>
+        <option value="cornrows">Cornrows</option>
+        <option value="box-braids">Box Braids</option>
+      </select>
+    </div>
+    <div class="mb-3">
+      <label for="size" class="form-label">Select Size</label>
+      <select class="form-select" id="size">
+        <option value="small">Small</option>
+        <option value="medium">Medium</option>
+        <option value="large">Large</option>
+      </select>
+    </div>
+    <div class="mb-3">
+      <label for="length" class="form-label">Select Length</label>
+      <select class="form-select" id="length">
+        <option value="short">Short</option>
+        <option value="medium">Medium</option>
+        <option value="long">Long</option>
+      </select>
+    </div>
+    <div class="mb-3">
+      <label for="specialist" class="form-label">Select Specialist</label>
+      <select class="form-select" id="specialist">
+        <option value="specialist1">Marta Specialist in Cornrows and Twist</option>
+        <option value="specialist2">Elrize Specialist in Ponytails and locs </option>
+        <option value="specialist3">Ingride Specialist in braids </option>
+      </select>
+    </div>
+    <button type="button" class="btn btn-primary select-service">Submit</button>
+  </form>
+</div>
+<footer
+    class="text-center text-lg-start text-white mt-4"
+    style="background-color: #d91587"
+    >
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+    <!-- Section: Links -->
+    <section class="">
+    <!--Grid row-->
+    <div class="row">
+    <!--Grid column-->
+    <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+      <h5 class="text-uppercase"> Get In Touch </h5>
+    
+      <p>
+          We will be happy to answer all your questions
+           and concerns as quickly as possible. 
+           For more information, please contact us 
+           or visit our website.
+        
+      </p>
+    
+      <!-- Section: Social media -->
+      <section class="mb-4 text-center">
+    <!-- Facebook -->
+    <a
+     class="btn btn-outline-light btn-floating m-1 rounded-circle"
+     href="#!"
+     role="button"
+     ><i class="fab fa-facebook-f"></i
+    ></a>
+    
+    <!-- Twitter -->
+    <a
+     class="btn btn-outline-light btn-floating m-1 rounded-circle"
+     href="#!"
+     role="button"
+     ><i class="fab fa-twitter"></i
+    ></a>
+    
+    <!-- Google -->
+    <a
+     class="btn btn-outline-light btn-floating m-1 rounded-circle"
+     href="#!"
+     role="button"
+     ><i class="fab fa-google"></i
+    ></a>
+    
+    <!-- Instagram -->
+    <a
+     class="btn btn-outline-light btn-floating m-1 rounded-circle"
+     href="#!"
+     role="button"
+     ><i class="fab fa-instagram"></i
+    ></a>
+    
+    <!-- Linkedin -->
+    <a
+     class="btn btn-outline-light btn-floating m-1 rounded-circle"
+     href="#!"
+     role="button"
+     ><i class="fab fa-linkedin-in"></i
+    ></a>
+    </section>
+    </div>
+    <!--Grid column-->
+    
+    <!--Grid column-->
+    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+      
+      <ul class="list-unstyled mb-0">
+        <li>
+          <h6 class="text-uppercase">Call Us</h6>
+          1 (343) 971-8525<br>1 (343) 461-1014
+        </li>
+        <li class="mt-3">
+          <h6 class="text-uppercase">Location</h6>
+          5473 Royalmount av, Ottawa, K1A 0A8 
+        </li>
+        <li class="mt-3">
+          <h6 class="text-uppercase">Business Hours</h5>
+          Mon – Sat …… 8:30 am – 8 pm<br>
+          Sun …… Closed
+        </li>
+      </ul>
+    </div>
+    <!--Grid column-->
+    
+    <!--Grid column-->
+    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+      <h6 class="text-uppercase">Custumer services</h6>
+    
+      <ul class="list-unstyled mb-0">
+        
+        <li>
+          <a href="#!" class="text-white">Pricing Policy & Promo Codes</a>
+        </li>
+        
+        <li>
+          <a href="#!" class="text-white">Policies</a>
+        </li>
+        <li>
+          <a href="#!" class="text-white">Make a deposit</a>
+        </li>
+        
+      </ul>
+    </div>
+    <!--Grid column-->
+    
+    <!--Grid column-->
+    <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+      <h6 class="text-uppercase">About Us</h6>
+    
+      <ul class="list-unstyled mb-0">
+        <li>
+          <a href="#!" class="text-white">Hiring</a>
+        </li>
+      
+        <li>
+          <a href="#!" class="text-white">Our stores</a>
+        </li>
+        
+      </ul>
+    </div>
+    <!--Grid column-->
+    </div>
+    <!--Grid row-->
+    </section>
+    </div>
+    <!-- Grid container -->
+    
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+    <div class="modal-content">
+    <div class="modal-header">
+    <h1 class="modal-title fs-5" id="exampleModalLabel" style="color: black;">Important</h1>
+    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <div class="modal-body" style="color: rgb(201, 21, 84);">
+    Les images utilisées dans ce site sont soumis à des droits d'auteurs, s'il vous plait veuillez ne pas utiliser ces images pour des buts commerciaux. Les images sont uniquement utilisées dans un but académiques.
+    </div>
+    <div class="modal-footer">
+    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+    </div>
+    </div>
+    </div>
+    </div>
+    
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+    &copy;
+    <span id="copyright">
+    <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+    
+    </span> Copyright:
+    <a class="text-white" href="https://mdbootstrap.com/"
+    >KmgStyling</a
+    >
+    </div>
+    <!-- Copyright -->
+    <!-- End of .container -->
+    </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+<script src="./assets/js/main.js"></script>
+</body>
+</html>

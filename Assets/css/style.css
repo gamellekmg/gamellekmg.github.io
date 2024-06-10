@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300..700&display=swap');
+body{
+   font-family:"Roboto" , sans-serif ;
+   color:black;
+   line-height: 1.7;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+}
+
+p, a, li, span, input, button {
+  font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+h5 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+a{
+  color:#222;
+  text-decoration: none;
+  transition: all 0.4s;
+  font-weight: 600;
+}
+a:hover {
+  color: #f58;
+
+}
+img{
+  min-width: 100%;
+}
+.navbar-pink {
+  background-color: #d91587; 
+}
+.nav-link.active {
+  color: black
+}
+#nextAvailable:hover {
+  background-color: #d91587;
+  color: white;
+}
+.policies img {
+  width: 80px; /* Ajustez cette valeur selon vos besoins */
+  height: 80px; /* Ajustez cette valeur selon vos besoins */
+  object-fit: contain; /* Assure que l'image garde son aspect ratio */
+}
+
+.policies h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.policies p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.policies h5 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.card-subtitle {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-text {
+  font-size: 1rem;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+}
+
+footer a {
+  color: #ffc107;
+}
+
+footer a:hover {
+  color: white;
+}
+.gallery .card-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.gallery .card-img-top {
+  width: 100%;
+  height: auto;
+  max-height: 300px; /* Adjust this value as needed */
+  object-fit: contain;
+}
+.gallery {
+  background-color: #f8f9fa;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+body {
+  font-style: italic;
+}
+
+
