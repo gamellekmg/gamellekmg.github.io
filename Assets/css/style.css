@@ -4,6 +4,12 @@ body{
    color:black;
    line-height: 1.7;
 }
+.navbar-pink {
+  background-color: #d91587; 
+}
+.nav-link.active {
+  color: black
+}
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Playfair Display', serif;
 }
@@ -34,12 +40,7 @@ a:hover {
 img{
   min-width: 100%;
 }
-.navbar-pink {
-  background-color: #d91587; 
-}
-.nav-link.active {
-  color: black
-}
+
 #nextAvailable:hover {
   background-color: #d91587;
   color: white;
